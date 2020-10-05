@@ -1,0 +1,14 @@
+# Background
+https://www.youtube.com/watch?v=Mq_Ksga9uHY
+
+# Technnical
+amazon_reviews_scaper : https://github.com/philipperemy/amazon-reviews-scraper by Phillipe Remy
+amazon_product_api : https://github.com/drawrowfly/amazon-product-api by Drawrowfly
+amazon_reviews : https://github.com/jeremygrace/amazon-reviews  by Jeremy Grace
+Deception-Detection-on-Amazon-reviews-dataset : https://github.com/aayush210789/Deception-Detection-on-Amazon-reviews-dataset
+Amazon Reviews for Sentiment Analysis:https://www.kaggle.com/bittlingmayer/amazonreviews/notebooks?sortBy=hotness&group=everyone&pageSize=20&datasetId=1305&language=Python  
+
+# Data 
+Amazon Reviews for Sentiment Analysis: https://www.kaggle.com/bittlingmayer/amazonreviews
+Best dataset found : https://nijianmo.github.io/amazon/index.html 
+API Fecthing : https://data.world/opensnippets/iphone-11-reviews  
