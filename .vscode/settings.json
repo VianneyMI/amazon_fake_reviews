@@ -1,5 +1,6 @@
 {
     "python.pythonPath": "C:\\Users\\Marcus\\anaconda3\\envs\\nlp_env\\python.exe",
     "python.linting.pycodestyleEnabled": true,
-    "python.linting.pycodestyleArgs": ["--max-line-length=100"]
+    "python.linting.pycodestyleArgs": ["--max-line-length=120"],
+    "python.terminal.executeInFileDir": true
 }
