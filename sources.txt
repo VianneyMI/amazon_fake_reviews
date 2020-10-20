@@ -11,4 +11,5 @@ Amazon Reviews for Sentiment Analysis:https://www.kaggle.com/bittlingmayer/amazo
 # Data 
 Amazon Reviews for Sentiment Analysis: https://www.kaggle.com/bittlingmayer/amazonreviews
 Best dataset found : https://nijianmo.github.io/amazon/index.html 
+	Link to actually download the data from the page above : http://deepyeti.ucsd.edu/jianmo/amazon/
 API Fecthing : https://data.world/opensnippets/iphone-11-reviews  
