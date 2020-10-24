@@ -7,6 +7,7 @@ amazon_product_api : https://github.com/drawrowfly/amazon-product-api by Drawrow
 amazon_reviews : https://github.com/jeremygrace/amazon-reviews  by Jeremy Grace
 Deception-Detection-on-Amazon-reviews-dataset : https://github.com/aayush210789/Deception-Detection-on-Amazon-reviews-dataset
 Amazon Reviews for Sentiment Analysis:https://www.kaggle.com/bittlingmayer/amazonreviews/notebooks?sortBy=hotness&group=everyone&pageSize=20&datasetId=1305&language=Python  
+Intro to NLP: https://towardsdatascience.com/a-gentle-introduction-to-natural-language-processing-e716ed3c0863
 
 # Data 
 Amazon Reviews for Sentiment Analysis: https://www.kaggle.com/bittlingmayer/amazonreviews
