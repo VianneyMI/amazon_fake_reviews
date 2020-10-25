@@ -1,13 +1,18 @@
 # %%
+import os
+import pyodbc
 import pandas as pd
 import numpy as np
 import nltk  # use for feature engineering
 from wordcloud import WordCloud, STOPWORDS  # quick plot of words in the data
 import matplotlib.pyplot as plt
-import os
+
 
 # %% Load the amazon reviews
-data = pd.read_csv(os.path.join('..', 'data', 'exports', 'test_appliances.csv'))
+conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=..\\data\\exports\\test_appliances.accdb')
+cursor = conn.cursor()
+sql = "select * from Test_appliances"
+data = pd.read_sql(sql, conn)
 print(data.head())
 
 # %% See popular words in review title and review
@@ -41,5 +46,5 @@ plt.ylabel('Frequency', fontsize=16)
 plt.grid()
 plt.show()
 
-# %%
+# %% Repeated reviews
 
