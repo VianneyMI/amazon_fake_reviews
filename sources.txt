@@ -8,6 +8,10 @@ amazon_reviews : https://github.com/jeremygrace/amazon-reviews  by Jeremy Grace
 Deception-Detection-on-Amazon-reviews-dataset : https://github.com/aayush210789/Deception-Detection-on-Amazon-reviews-dataset
 Amazon Reviews for Sentiment Analysis:https://www.kaggle.com/bittlingmayer/amazonreviews/notebooks?sortBy=hotness&group=everyone&pageSize=20&datasetId=1305&language=Python  
 Intro to NLP: https://towardsdatascience.com/a-gentle-introduction-to-natural-language-processing-e716ed3c0863
+Detecting Grammar Error : https://predictivehacks.com/languagetool-grammar-and-spell-checker-in-python/#:~:text=LanguageTool%20is%20an%20open%2Dsource,through%20a%20command%2Dline%20interface.
+Detecting Grammar Error : https://www.geeksforgeeks.org/grammar-checker-in-python-using-language-check/ 
+String Similarity : https://towardsdatascience.com/calculating-string-similarity-in-python-276e18a7d33a 
+
 
 # Data 
 Amazon Reviews for Sentiment Analysis: https://www.kaggle.com/bittlingmayer/amazonreviews
