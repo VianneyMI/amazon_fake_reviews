@@ -1,4 +1,4 @@
-#%%
+# %%
 import pandas as pd
 import numpy as np
 import nltk  # use for feature engineering
@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import os
 
 # %% Load the amazon reviews
-data = pd.read_csv(os.path.join('..', 'data', 'not_retained', 'amazon_reviews.txt'), delimiter="\t")
+data = pd.read_csv(os.path.join('..', 'data', 'exports', 'test_appliances.csv'))
 print(data.head())
 
 # %% See popular words in review title and review
@@ -15,7 +15,7 @@ stopwords = set(STOPWORDS)  # remove very frequent words with little meaning (Ex
 separator = ' '
 
 '''Set plot for review titles and reviews'''
-df_cols = ["REVIEW_TITLE", "REVIEW_TEXT"]
+df_cols = ["summary", "reviewText"]
 plt.figure()
 for i, col in enumerate(df_cols):
     joined_text = separator.join(data[col])
@@ -31,7 +31,7 @@ for i, col in enumerate(df_cols):
 data['avg_word_length'] = [None] * len(data)  # preallocate array
 
 for index, row in data.iterrows():
-    word_len = list(map(len, row['REVIEW_TEXT'].split()))  # list of lengths of each word in review
+    word_len = list(map(len, row['reviewText'].split()))  # list of lengths of each word in review
     data.loc[index, 'avg_word_length'] = np.mean(word_len)
 
 plt.figure()
@@ -42,3 +42,4 @@ plt.grid()
 plt.show()
 
 # %%
+
