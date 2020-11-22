@@ -15,6 +15,13 @@ def print_error(matches: Matches, i: int) -> None:
     print(error.msg)
 
 
+def get_errorCategories(errors):
+    categories = []
+    for error in errors:
+        categories.append(error.category)
+    return categories
+
+
 def print_errors(matches: Matches) -> None:
     for i in range(len(matches)):
         error = matches[i]
